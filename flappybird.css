@@ -1,8 +1,9 @@
 canvas {
     background-color: lightskyblue;
-    width: 100%;
 }
-body {
+body, html {
     margin: 0 auto;
     display: inline;
+    width: 100%;
+    height: 100%;
 }
