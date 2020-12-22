@@ -15,6 +15,7 @@ var pipes = [{xpos:480+pipeT/2, ypos:Math.round(random(pipeG/2,360-pipeG/2)), ti
 var score = 0;
 var run = setInterval(function () {update();}, 20);
 var game = false;
+document.onclick = function () {jump()};
 
 //start game
 function start() {
