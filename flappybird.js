@@ -84,7 +84,7 @@ function update() {
         c.font = "120px Arial";
         c.fillStyle="#000000"
         c.textAlign="center"
-        c.fillText("Press the start button to play", cv.width/2, cv.height/2);
+        c.fillText("Click start, then click anywhere to jump.", cv.width/2, cv.height/2);
     }
     //draw score
     c.font = "120px Arial";
