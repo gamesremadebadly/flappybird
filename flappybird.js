@@ -36,7 +36,7 @@ function random(a, b) {
 //everything
 function update() {
     //resize
-    if (window.innerWidth < window.innerHeight) {
+    if (0.75*window.innerWidth < window.innerHeight) {
         document.getElementById("c").style.height='';
         document.getElementById("c").style.width='100%';
     }  else {
